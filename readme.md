@@ -10,3 +10,5 @@ Trabajos de Periodismo de Datos II
 Una web que me ha servido es <https://cuadernosdenotas.github.io/creandoestesitio/006Markdown.html>
 
 Para conocer más sintaxis markdown: https://markdown.es/sintaxis-markdown/
+
+Ánimo.
