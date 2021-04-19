@@ -10,4 +10,3 @@ Una web que me ha servido es <https://cuadernosdenotas.github.io/creandoestesiti
 
 Para conocer más sintaxis markdown: https://markdown.es/sintaxis-markdown/
 
-Ánimo.
