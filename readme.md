@@ -6,5 +6,6 @@
 - Resultado al insertarlo en Datawrapper, una de las páginas más conocidas para visualizaciones en medios
 - Apuntes de la asignatura para los inicios en GitHub
 
+**[página web](https://irinaparra.github.io/entregas-datos/index.html)**
 
 
