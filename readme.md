@@ -6,7 +6,5 @@
 - Resultado al insertarlo en Datawrapper, una de las páginas más conocidas para visualizaciones en medios
 - Apuntes de la asignatura para los inicios en GitHub
 
-Una web que me ha servido es <https://cuadernosdenotas.github.io/creandoestesitio/006Markdown.html>
 
-Para conocer más sintaxis markdown: https://markdown.es/sintaxis-markdown/
 
