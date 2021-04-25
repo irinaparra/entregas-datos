@@ -51,9 +51,9 @@
 									<p>Al descargarlo se puede abrir ya con el terminal. En mi caso lo tenía guardado en el escritorio, así que esta fue la ruta que indiqué en todo momento.</p>
 									<p>Lo primero que he hecho ha sido comprobar cuánto espacio ocupa el archivo para poder compararlo con el resultado después de limpiarlo. También cuántas líneas tiene por arriba y por abajo para hacerme una idea de lo que tendré que borrar y qué finales son innecesarias. En este caso las primeras no aportan nada, pero sí debo dejar la que incluye los parámetros educativos para que las gráficas tengan sentido. Para saber las líneas he usado el comando wc -l y con head y tail las que hay por arriba y por abajo. Tenemos información que quitar desde arriba 12 líneas y de abajo 5 de las 48 totales. Los caracteres pueden servir para navegar desde filas y limpiar algunas columnas, para esto el mejor comando es wc -m. </p>
 									<img src="imagenesinsertar/primer-resultado.png" width="1000" height="200">
-									<img src="imagenesinsertar/head-resultados.png" width="700" height="550">
+									<img src="imagenesinsertar/head-resultados.png" width="1000" height="600">
 									<p>Con estos datos puedo comenzar a limpiar el documento usando nano. Las primeras líneas nos sobran y las eliminamos por completo con Control + K y las columnas que se ven entre medio de cada dato en blanco con Control + _, nano nos pide indicar fila y número de espacio y cuando se lo indicamos nos lleva directamente. En este caso se trata de fila 1 espacio 19. También he eliminado datos en filas, por ejemplo, el número de estados miembros de la Unión Europea que se especifican anteriormente. </p>
-								        <img src="imagenesinsertar/captura-resultado.png" width="700" height="550">
+								        <img src="imagenesinsertar/captura-resultado.png" width="500" height="550">
 								
 									<p>Con este resultado hemos eliminado las columnas. Si dejamos la línea horizontal al final de cada número el programa en el que insertemos el documento puede leerlo como una nueva celda, así que hay que eliminarlo. Finalmente podemos subir este documento a Datawrapper y obtener los gráficos. Posteriormente traduje el nombre de los países y la división entre escolarización para que estuviese en español. </p>
 </script>
