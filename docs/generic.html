@@ -51,13 +51,17 @@
 									<p>Al descargarlo se puede abrir ya con el terminal. En mi caso lo tenía guardado en el escritorio, así que esta fue la ruta que indiqué en todo momento.</p>
 									<p>Lo primero que he hecho ha sido comprobar cuánto espacio ocupa el archivo para poder compararlo con el resultado después de limpiarlo, para esto he utilizado <b>du y du -h</b>. También he consultado cuántas líneas tiene por arriba y por abajo para hacerme una idea de lo que tendré que borrar y qué finales son innecesarias. En este caso las primeras no aportan nada, pero sí debo dejar la que incluye los parámetros educativos para que las gráficas tengan sentido. Para saber las líneas he usado el <b>comando wc -l</b> y con <b>head y tail</b> las que hay por arriba y por abajo. Tenemos información que quitar desde arriba 12 líneas y de abajo 5 de las 48 totales. Los caracteres pueden servir para navegar desde filas y limpiar algunas columnas, para esto el mejor <b>comando es wc -m.</b> </p>
 									<img src="imagenesinsertar/primer-resultado.png" alt="Averiguamos el peso del archivo del archivo desde el terminal con du y du -h" width="1000" height="200">
+									<figcaption>Fuente: Elaboración propia. Nota: Terminal para Mac</figcaption>
 									<img src="imagenesinsertar/head-resultados.png" alt="Contamos las líneas, caracteres y vemos las del inicio y final desde el terminal" width="1000" height="600">
+									<figcaption>Fuente: Elaboración propia. Nota: Terminal para Mac</figcaption>
 									<p>Con estos datos puedo comenzar a limpiar el documento usando nano. Las primeras líneas nos sobran y las eliminamos por completo con <b>Control + K</b> y las columnas que se ven entre medio de cada dato en blanco con <b>Control + _</b>, nano nos pide indicar fila y número de espacio y cuando se lo indicamos nos lleva directamente. En este caso se trata de fila 1 espacio 19. También he eliminado datos en filas, por ejemplo, el número de estados miembros de la Unión Europea que se especifican anteriormente. </p>
 								        <img src="imagenesinsertar/captura-resultado.png" alt="El csv desde nano. Estamos limpiando toda la información innecesaria para el gráfico" width="500" height="550">
+									<figcaption>Fuente: Elaboración propia. Nota: Terminal para Mac</figcaption>
 								
 									<p>Con este resultado hemos eliminado las columnas. Si dejamos la línea horizontal al final de cada número el programa en el que insertemos el documento puede leerlo como una nueva celda, así que hay que eliminarlo. Finalmente podemos subir este documento a Datawrapper y obtener los gráficos. Posteriormente traduje el nombre de los países y la división entre escolarización para que estuviese en español. </p>
 									<p>Por último, en la siguiente imagen podemos ver que efectivamente ahora tenemos menos líneas y caracteres:</p>.
 									<img src="imagenesinsertar/comprobacion.png" alt="Comprobamos que los cambios se han guardado y el resultado son menos líneas y menos caracteres" width="1000" height="150">
+									<figcaption>Fuente: Elaboración propia. Nota: Terminal para Mac</figcaption>
 </script>
 								<h2>Propuestas de gráficos</h2>
 								<p>De entre las diferentes opciones en Datawrapper he pensado que estas tres serían las que mejor reflejan los resultados y hacen la información más comprensible de manera rápida.</p>
@@ -65,13 +69,16 @@
 								<p>Puedes verla mejor <a href="https://datawrapper.dwcdn.net/Y9dDL/1/" target="_blank">aquí</a></p>
 								
 								<img src="imagenesinsertar/grafico_porcentaje.png" alt="Gráfico sobre el peligroso consumo de alcohol en los países europeos. Los datos están expresados en porcentaje y son de 2014. Destacan las altas cifras de Reino Unido." width="800" height="750">
+								<figcaption>Gráfico:Irina Parra</figcaption>
 							
 								<h3>Opción 2</h3>
 								<p>Puedes verla mejor <a href="https://datawrapper.dwcdn.net/0vZwx/4/" target="_blank">aquí</a></p>
 								<img src="imagenesinsertar/grafico_horizontal.png" alt="Gráfico sobre el peligroso consumo de alcohol en los países europeos. Los datos están expresados en porcentaje y son de 2014. Destacan las altas cifras de Reino Unido." width="600" height="800">
+								<figcaption>Gráfico:Irina Parra</figcaption>
 								<h3>Opción 3</h3>
 								<p>Puedes verla mejor <a href="https://datawrapper.dwcdn.net/Ev4W1/1/" target="_blank">aquí</a></p>
 								<img src="imagenesinsertar/grafico_barra.png" alt="Gráfico sobre el peligroso consumo de alcohol en los países europeos. Los datos están expresados en porcentaje y son de 2014. Destacan las altas cifras de Reino Unido." width="600" height="3000">
+								<figcaption>Gráfico:Irina Parra</figcaption>
 									
 								</div>
 							</section>
@@ -129,10 +136,10 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="https://twitter.com/irinaparra1" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/irinaparrablog" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="https://github.com/irinaparra" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/irina-parra-garc%C3%ADa-0842bb140/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://twitter.com/irinaparra1" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/irinaparrablog" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/irinaparra" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/irina-parra-garc%C3%ADa-0842bb140/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						
 							</ul>
 							<ul class="copyright">
